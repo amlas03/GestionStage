@@ -1,0 +1,98 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    background-image: url('pink.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.labeled-text {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.roundedButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f39bc0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.roundedButton:hover {
+    background-color: #d377a6;
+}
+
+.inscrits-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}

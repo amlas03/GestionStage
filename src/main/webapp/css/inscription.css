@@ -1,0 +1,42 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-image: url('pink.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f39bc0;
+  }
+  input[type="text"], select {
+    width: calc(50% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .btn {
+    background-color: #f39bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #ff99cc; /* Lighter pink */
+  }
